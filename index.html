@@ -1,78 +1,293 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cmn-Hans"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>浪哥de世界</title>
+    <link rel="stylesheet" href="./weui.css">
+    <link rel="stylesheet" href="./example.css">
+<script type="text/javascript" async="" src="http://static.duoshuo.com/embed.js" charset="UTF-8"></script><link type="text/css" rel="stylesheet" href="http://static.duoshuo.com/styles/embed.default.css?9b2a46a0.css"></head>
+<body ontouchstart="">
+    <div class="container" id="container"><div class="home">
+<div class="hd">
+    <h1 class="page_title">浪哥de世界</h1>
+    <p class="page_desc"></p>
+</div>
+<div class="bd">
+    <div class="weui_grids">
+        <a href="#/soft" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_soft"></i>
+            </div>
+            <p class="weui_grid_label">
+                软件
+            </p>
+        </a>
+        <a href="http://langgehenlang.github.io" target="_blank" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_hexo"></i>
+            </div>
+            <p class="weui_grid_label">
+		博客
+            </p>
+        </a>
+		 <a href="http://blog.csdn.net/liujunpen" target="_blank" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_csdn"></i>
+            </div>
+            <p class="weui_grid_label">
+		CSDN
+            </p>
+        </a>
+        <a href="javascript:;" id="showGzh" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_gzh"></i>
+            </div>
+            <p class="weui_grid_label">
+                公众号
+            </p>
+        </a>
+        <a href="http://weibo.com/u/6049771220?refer_flag=1001030102_" target="_blank" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_weibo"></i>
+            </div>
+            <p class="weui_grid_label">
+                微博
+            </p>
+        </a>
+        <a href="https://github.com/langgehenlang" target="_blank" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_github"></i>
+            </div>
+            <p class="weui_grid_label">
+                Github
+            </p>
+        </a>
+        <a href="http://ht.youcanyin.com/" target="_blank" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_houtai"></i>
+            </div>
+            <p class="weui_grid_label">
+                后台
+            </p>
+        </a>
+        <a href="#/suggestion" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_suggestion"></i>
+            </div>
+            <p class="weui_grid_label">
+                意见箱
+            </p>
+        </a>
+        <a href="http://www.dydh.tv/zt/xianggangguipian/" target="_blank" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_terror"></i>
+            </div>
+            <p class="weui_grid_label">
+                恐怖导航
+            </p>
+        </a>
+        <a href="https://www.hao123.com/" target="_blank" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_video"></i>
+            </div>
+            <p class="weui_grid_label">
+                视频导航
+            </p>
+        </a>
+        <a href="http://www.wangxiao123.com/" target="_blank" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_study"></i>
+            </div>
+            <p class="weui_grid_label">
+                学习导航
+            </p>
+        </a>
+        <a href="http://www.qiushibaike.com/" target="_blank" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_er"></i>
+            </div>
+            <p class="weui_grid_label">
+                犯二导航
+            </p>
+        </a>
+		<!--BEGIN my dialog-->
+		<div class="weui_dialog_alert" id="dialog_gzh" style="display: none;">
+			<div class="weui_mask"></div>
+			<div class="weui_dialog">
+				<div class="weui_dialog_hd"><strong class="weui_dialog_title">微信公众号</strong></div>
+				<div class="weui_dialog_bd"><img src="gzh_QR.jpg" height="200" width="200"><p>扫我更帅更靓</p></div>
+				<div class="weui_dialog_ft">
+					<a href="javascript:;" class="weui_btn_dialog primary">确定</a>
+				</div>
+			</div>
+		</div>
+		<!--END my dialog-->
+    </div>
+</div>
+</div></div>
+    <script type="text/html" id="tpl_home">
+<div class="hd">
+    <h1 class="page_title">浪哥de世界</h1>
+    <p class="page_desc"></p>
+</div>
+<div class="bd">
+    <div class="weui_grids">
+        <a href="#/soft" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_soft"></i>
+            </div>
+            <p class="weui_grid_label">
+                软件
+            </p>
+        </a>
+        <a href="http://langgehenlang.github.io" target="_blank" class="weui_grid"  >
+            <div class="weui_grid_icon">
+                <i class="icon icon_hexo"></i>
+            </div>
+            <p class="weui_grid_label">
+		博客
+            </p>
+        </a>
+		 <a href="http://blog.csdn.net/liujunpen"  target="_blank" class="weui_grid" >
+            <div class="weui_grid_icon">
+                <i class="icon icon_csdn"></i>
+            </div>
+            <p class="weui_grid_label">
+		CSDN
+            </p>
+        </a>
+        <a href="javascript:;" id="showGzh" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_gzh"></i>
+            </div>
+            <p class="weui_grid_label">
+                公众号
+            </p>
+        </a>
+        <a href="http://weibo.com/u/6049771220?refer_flag=1001030102_" target="_blank" class="weui_grid" >
+            <div class="weui_grid_icon">
+                <i class="icon icon_weibo"></i>
+            </div>
+            <p class="weui_grid_label">
+                微博
+            </p>
+        </a>
+        <a href="https://github.com/langgehenlang" target="_blank" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_github"></i>
+            </div>
+            <p class="weui_grid_label">
+                Github
+            </p>
+        </a>
+        <a href="http://ht.youcanyin.com/"  target="_blank"  class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_houtai"></i>
+            </div>
+            <p class="weui_grid_label">
+                后台
+            </p>
+        </a>
+        <a href="#/suggestion" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_suggestion"></i>
+            </div>
+            <p class="weui_grid_label">
+                意见箱
+            </p>
+        </a>
+        <a href="http://www.dydh.tv/zt/xianggangguipian/"  target="_blank"  class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_terror"></i>
+            </div>
+            <p class="weui_grid_label">
+                恐怖导航
+            </p>
+        </a>
+        <a href="https://www.hao123.com/"  target="_blank" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_video"></i>
+            </div>
+            <p class="weui_grid_label">
+                视频导航
+            </p>
+        </a>
+        <a href="http://www.wangxiao123.com/"  target="_blank"  class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_study"></i>
+            </div>
+            <p class="weui_grid_label">
+                学习导航
+            </p>
+        </a>
+        <a href="http://www.qiushibaike.com/"  target="_blank" class="weui_grid">
+            <div class="weui_grid_icon">
+                <i class="icon icon_er"></i>
+            </div>
+            <p class="weui_grid_label">
+                犯二导航
+            </p>
+        </a>
+		<!--BEGIN my dialog-->
+		<div class="weui_dialog_alert" id="dialog_gzh" style="display: none;">
+			<div class="weui_mask"></div>
+			<div class="weui_dialog">
+				<div class="weui_dialog_hd"><strong class="weui_dialog_title">微信公众号</strong></div>
+				<div class="weui_dialog_bd"><img src="gzh_QR.jpg" height="200" width="200" /><p>扫我更帅更靓</p></div>
+				<div class="weui_dialog_ft">
+					<a href="javascript:;" class="weui_btn_dialog primary">确定</a>
+				</div>
+			</div>
+		</div>
+		<!--END my dialog-->
+    </div>
+</div>
+</script>
+ <script type="text/html" id="tpl_soft">
+<div class="hd">
+    <a href="#" class="weui_btn weui_btn_plain_primary" style="position:absolute;">返回</a>	
+	 <h1 class="page_title">软件下载(若下载失败，请在浏览器中打开，再下载)</h1>
+</div>
+<div class="bd">   
+    <div class="weui_cells">        
+        <div class="weui_cell">
+            <div class="weui_cell_hd"><img src="jiao.png" style="height:45px;width:45px;"></div>
+            <div class="weui_cell_bd weui_cell_primary" style="margin-left:12px;">
+                <p>排队叫号（v1.2.1）</p>
+				  <p style="font-size:13px;color:#999999;">专注体验，实用便捷。一款永久免费安卓Pad版的排队叫号系统...</p>
+            </div>            
+			<a type="button" class="weui_btn weui_btn_plain_primary" onclick="window.location.href='http://ofvcuw2v4.bkt.clouddn.com/QueuingCall-12-23-5-v1.2.1.apk'">下载</a>			 
+        </div>
+    </div>
+</div>
+</script>
 
-<head>
+<script type="text/html" id="tpl_suggestion">
+<div class="hd">
+    <a href="#" class="weui_btn weui_btn_plain_primary" style="position:absolute;">返回</a>	
+	 <h1 class="page_title">留言区</h1>
+</div>
+<div class="bd" style="height:500px;">   	
+	<iframe src="suggestion.html" id="myduoshuo" scrolling="no" frameborder="0" height="100%" width="100%"></iframe>
+</div>
 
-  <meta charset="UTF-8">
+</script>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"qvpapa"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
 
-  <title>浪哥de世界</title>
-
-  
-
-	    <style>
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
-
-
-body {
-	background:#FF2965;
-}
-
-button[type="submit"] { }
-
-#contact button[type="submit"] {
-	cursor:pointer;
-	width:250px;
-	border:none;
-	background:#0CF;
-	color:#FFF;
-	margin:0 0;
-	padding:10px;
-	font-size:82px;
-	 position: absolute;
- left: 50%;
- top: 50%;
- height:250px;
-margin-left:-100px;
-margin-top:-100px;
-}
-
-#contact button[type="submit"]:hover {
-	background:#09C;
-	-webkit-transition:background 0.3s ease-in-out;
-	-moz-transition:background 0.3s ease-in-out;
-	transition:background-color 0.3s ease-in-out;
-}
-
-#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
-
-#contact input:focus, #contact textarea:focus {
-	outline:0;
-	border:1px solid #999;
-}
-::-webkit-input-placeholder {
- color:#888;
-}
-:-moz-placeholder {
- color:#888;
-}
-::-moz-placeholder {
- color:#888;
-}
-:-ms-input-placeholder {
- color:#888;
-}
+    <script src="./zepto.min.js"></script>
+    <script src="./router.min.js"></script>
+    <script src="./example.js"></script>
+	
 
 
-    </style>
-</head>
-
-<body>
-
-  <div id="contact" >
-    <button name="submit" type="submit" id="contact-submit" class="center" onclick="javascript:window.location.href='http://oinf0sdsg.bkt.clouddn.com/index.html'" >进入网站</button>
-  </div>
-
-</body>
-
-</html>
+<div class="chrome-ext-image-cropper" style="position: absolute; top: 0px; left: 0px;"><div class="tip-top"></div><div class="tip"></div><div class="tip-bottom"></div></div><div id="window-resizer-tooltip" style="display: none;"><a href="#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">1368</span> x <span class="tooltipHeight" id="winHeight">825</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">1016</span> x <span class="tooltipHeight" id="vpHeight">688</span></div></body></html>
